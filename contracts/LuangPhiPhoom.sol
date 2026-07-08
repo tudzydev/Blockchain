@@ -10,7 +10,7 @@ contract LuangPhiPhoom is ERC721, ERC721URIStorage, Ownable {
     uint256 private _nextTokenId;
 
     constructor(address initialOwner)
-        ERC721("LuangPhiPhoom", "LPP")
+        ERC721("LuangPhiPhoom", "LPH")
         Ownable(initialOwner)
     {}
 
