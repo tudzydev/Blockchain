@@ -907,11 +907,11 @@
 			]
 		},
 		"contracts/LuangPhiPhoom.sol": {
-			"keccak256": "0x0fdbecb6e2ecab062269bad03e7a001ebf5a3c9eea825f951bb2e4192105fcd3",
+			"keccak256": "0x9114588b72ac493d9b208a58063eab01e8098e7a9316540ebfaa4a0df8d6687c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a4c20799f4e14d7c16af70399f0968267dc21c1df2cbab80fd88440f641d6af6",
-				"dweb:/ipfs/QmR7YpYFfdaEcYTJEUqmsWw1xxznNyBmQsh8yw9j7xxSkv"
+				"bzz-raw://2a3a67be0c936b46e46689080b87467b3686c41d73a7ac2c693bed61e94ecabe",
+				"dweb:/ipfs/QmfPrnEAUsUR1D3ioitciaCyCL65TCaVKodb7y1jHnr32m"
 			]
 		}
 	},
