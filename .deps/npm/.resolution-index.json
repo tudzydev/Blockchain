@@ -423,7 +423,7 @@
   "contracts/EasyBank.sol": {
     "__sources__": {
       "contracts/EasyBank.sol": {
-        "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.26;\n\ncontract EasyBank {\n\n    mapping(address => uint256) private balances;\n\n    function getBalance() public view returns (uint256) {\n        return balances[msg.sender];\n    }\n\n    function deposit() public payable {\n        balances[msg.sender] += msg.value;\n    }\n\n    function withdraw(uint256 amount) public {\n        require(balances[msg.sender] >= amount, \"Insufficient balance\");\n\n        balances[msg.sender] -=amount;\n\n        (bool success, ) = payable(msg.sender).call{value: amount}(\"\");\n        require(success, \"Withdraw failed\");\n    }\n}\n",
+        "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.26;\n\ncontract EasyBank {\n\n    mapping(address => uint256) private balances;\n\n    function getBalance() public view returns (uint256) {\n        return balances[msg.sender];\n    }\n\n    // payable is can รับเงินได้\n    function deposit() public payable {\n        balances[msg.sender] += msg.value;\n    }\n\n    function withdraw(uint256 amount) public {\n        require(balances[msg.sender] >= amount, \"Insufficient balance\");\n\n        balances[msg.sender] -=amount;\n\n        (bool success, ) = payable(msg.sender).call{value: amount}(\"\");\n        require(success, \"Withdraw failed\");\n    }\n}\n",
         "file": "contracts/EasyBank.sol"
       }
     }

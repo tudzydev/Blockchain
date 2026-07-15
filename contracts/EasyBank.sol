@@ -9,6 +9,7 @@ contract EasyBank {
         return balances[msg.sender];
     }
 
+    // payable is can รับเงินได้
     function deposit() public payable {
         balances[msg.sender] += msg.value;
     }
