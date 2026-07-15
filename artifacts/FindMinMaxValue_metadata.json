@@ -7,12 +7,90 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "maxValue_int16",
+				"outputs": [
+					{
+						"internalType": "int16",
+						"name": "",
+						"type": "int16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maxValue_int256",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maxValue_int32",
+				"outputs": [
+					{
+						"internalType": "int32",
+						"name": "",
+						"type": "int32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "maxValue_int8",
 				"outputs": [
 					{
 						"internalType": "int8",
 						"name": "",
 						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maxValue_uint16",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maxValue_uint256",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maxValue_uint32",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
 					}
 				],
 				"stateMutability": "view",
@@ -33,12 +111,90 @@
 			},
 			{
 				"inputs": [],
+				"name": "minValue_int16",
+				"outputs": [
+					{
+						"internalType": "int16",
+						"name": "",
+						"type": "int16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minValue_int256",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minValue_int32",
+				"outputs": [
+					{
+						"internalType": "int32",
+						"name": "",
+						"type": "int32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "minValue_int8",
 				"outputs": [
 					{
 						"internalType": "int8",
 						"name": "",
 						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minValue_uint16",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minValue_uint256",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minValue_uint32",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
 					}
 				],
 				"stateMutability": "view",
@@ -86,11 +242,11 @@
 	},
 	"sources": {
 		"contracts/FindMinMaxValue.sol": {
-			"keccak256": "0x71c6088b66525ff0b816ae34f781d38517d6188487e63e0e504a990d99d450a6",
+			"keccak256": "0x88ebed2a39534ae2c90a25a354ef27c529a697ca874b5f3976ff132b8020a9a7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2f7d46c7fdba69bd656fb77156cbb124f14bbe1a520acb7e688a1fdadafe2fee",
-				"dweb:/ipfs/QmPy5HTmUsuiA5wK78Ws7mAbpyphVy9DUuV3FTD36zJkNf"
+				"bzz-raw://e850e8c39f09d5dc84cc5b1ecdcf0f068deaa0fc569772ccbe4136c2944b3b54",
+				"dweb:/ipfs/QmaRWE6vc9trKHT1cBAQJwQm1AxBCaSXavxiduEfZyhrR5"
 			]
 		}
 	},
