@@ -7,6 +7,62 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "getIntValues",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					},
+					{
+						"internalType": "int16",
+						"name": "",
+						"type": "int16"
+					},
+					{
+						"internalType": "int32",
+						"name": "",
+						"type": "int32"
+					},
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getUintValues",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "maxValue_int16",
 				"outputs": [
 					{
@@ -242,11 +298,11 @@
 	},
 	"sources": {
 		"contracts/FindMinMaxValue.sol": {
-			"keccak256": "0x88ebed2a39534ae2c90a25a354ef27c529a697ca874b5f3976ff132b8020a9a7",
+			"keccak256": "0x1e1d004619bef202810398fa95a1019024dca015d27a9a1c6e878fe493b34a4e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e850e8c39f09d5dc84cc5b1ecdcf0f068deaa0fc569772ccbe4136c2944b3b54",
-				"dweb:/ipfs/QmaRWE6vc9trKHT1cBAQJwQm1AxBCaSXavxiduEfZyhrR5"
+				"bzz-raw://1858816575d758c990f0e07402d383fe87ec5fb4c13c0849dd6103eb034ffaf5",
+				"dweb:/ipfs/QmU2PUJYrrBJKkysHuZWAmWJ8DotbPkJShBnU24fUzNytH"
 			]
 		}
 	},

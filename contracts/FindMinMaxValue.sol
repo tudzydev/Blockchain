@@ -27,4 +27,26 @@ contract FindMinMaxValue {
 
     int256 public minValue_int256 = type(int256).min;
     int256 public maxValue_int256 = type(int256).max;
+
+    function getUintValues()
+        public
+        pure
+        returns (uint8, uint16, uint32, uint256)
+    {
+        return (
+            type(uint8).max,
+            type(uint16).max,
+            type(uint32).max,
+            type(uint256).max
+        );
+    }
+
+    function getIntValues() public pure returns (int8, int16, int32, int256) {
+        return (
+            type(int8).max,
+            type(int16).max,
+            type(int32).max,
+            type(int256).max
+        );
+    }
 }
